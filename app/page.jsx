@@ -62,7 +62,7 @@ export default function HomePage() {
 
       <div>
         <Image
-          src="/icon/img.svg"
+          src="/icon/Img.svg"
           alt="Developer Illustration"
           width={390}
           height={360}
