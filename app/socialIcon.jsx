@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SocialIcon({ platform, url }) {
   const icons = [
         {platform: 'Discord', src: '/icon/Discord.svg', alt: 'Discord Icon',link: 'https://discord.com' },
-        {platform: 'GitHub', src: '/icon/GitHub.svg', alt: 'GitHub Icon',link: 'https://github.com' },
+        {platform: 'GitHub', src: '/icon/Github.svg', alt: 'GitHub Icon',link: 'https://github.com' },
         {platform: 'LinkedIn', src: '/icon/LinkedIn.svg', alt: 'LinkedIn Icon',link: 'https://linkedin.com' },
     ] ;
     return (
