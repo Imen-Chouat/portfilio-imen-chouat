@@ -5,8 +5,8 @@ export default function HomePage() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [emailAddress, setEmailAddress] = useState("");
   useEffect(() => {
-    const storedPhone = localStorage.getItem("phone") || process.env.PHONE_NUMBER;
-    const storedEmail = localStorage.getItem("email") || process.env.EMAIL_USER;
+    const storedPhone = localStorage.getItem("phone") || process.env.NEXT_PUBLIC_PHONE_NUMBER;
+    const storedEmail = localStorage.getItem("email") || process.env.NEXT_PUBLIC_EMAIL_USER;
     setPhoneNumber(storedPhone);
     setEmailAddress(storedEmail);
     localStorage.setItem("phone", storedPhone);
